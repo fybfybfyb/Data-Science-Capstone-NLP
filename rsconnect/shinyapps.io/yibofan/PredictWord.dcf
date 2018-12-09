@@ -1,0 +1,12 @@
+name: PredictWord
+title: PredictWord
+username:
+account: yibofan
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 610274
+bundleId: 1750635
+url: https://yibofan.shinyapps.io/PredictWord/
+when: 1544349841.16119
+asMultiple: FALSE
+asStatic: FALSE
