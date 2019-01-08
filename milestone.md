@@ -1,58 +1,13 @@
-
-
-```r
+---
 title: "Coursera Data Science Capstone Milestone Report"
-```
-
-```
-## Warning: NAs introduced by coercion
-```
-
-```
-## Error in title:"Coursera Data Science Capstone Milestone Report": NA/NaN argument
-```
-
-```r
 author: "Yibo Fan"
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'author' not found
-```
-
-```r
 date: "2019-01-07"
-```
-
-```
-## Warning: NAs introduced by coercion
-```
-
-```
-## Error in date:"2019-01-07": NA/NaN argument
-```
-
-```r
 output: html_document
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'output' not found
-```
-
-```r
+---
 # Introduction
 This is the milestone report for **Johns Hopkins Data Science Specialization Capstone Project**. The purpose of this milestone report is to show an understanding about the project and current progress. 
 
 ## 1.Load Data and packages
-```
-
-```
-## Error: <text>:2:6: unexpected symbol
-## 1: # Introduction
-## 2: This is
-##         ^
-```
 
 ```r
 library(ggplot2)
@@ -163,22 +118,19 @@ trigramsDf_20 <- data.frame(word=names(top20trigrams), freq=top20trigrams)
 createPlot(unigramsDf_20)
 ```
 
-![plot of chunk unnamed-chunk-7](figure/unnamed-chunk-7-1.png)
+![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png)
 
 ```r
 createPlot(bigramsDf_20)
 ```
 
-![plot of chunk unnamed-chunk-7](figure/unnamed-chunk-7-2.png)
+![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-2.png)
 
 ```r
 createPlot(trigramsDf_20)
 ```
 
-![plot of chunk unnamed-chunk-7](figure/unnamed-chunk-7-3.png)
+![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-3.png)
 
 ## 6. Way Forward
 Here, we did the previous steps of exploring the data sets. In the next steps, I am gonna use the n-grams combined with Backoff strategy to do some predictions based on the previous few words. In order to improve the proficiency, I will do data table which is fast in large data sets.
-```
-```
-
